@@ -22,5 +22,8 @@ export default defineConfig({
     hmr: {
       host: '192.168.1.24'
     }
+  },
+  build: {
+    outDir: 'dist'
   }
 })
